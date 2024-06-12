@@ -1,0 +1,30 @@
+{%extends "base.html"%}
+{%block title%}
+    Features-page
+{%endblock%}
+{%block body%}
+<div class="row">
+    <div class="col-12">
+        <div class="card text-white ms-4 me-4 mb-4">
+            <div class="card-header">Features Hyperlink Page</div>
+            <div class  = "mx-auto p-2 w-75">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{%url 'test'%}">Test Webpage</a></h4>
+                    <p class="card-text">
+                        Nothing worth viewing on this page. Just move along.
+                    </p>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title"><a href="#">Example Title</a></h4>
+                    <p class="card-text">
+                        Lorem whatever the rest of that paragraph that is used to take up text space for filling up pages with fake content,
+                        But I dont want to find that so im just going to type out some of my random thoughts right now.
+                        Has anyone else been keeping up with the Drake and Kendrick beef? 
+                        I am enjoying Kendrick's songs very much.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}

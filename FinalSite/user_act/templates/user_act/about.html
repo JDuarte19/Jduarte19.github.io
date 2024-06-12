@@ -1,0 +1,47 @@
+{% extends "base.html"%}
+{%block title%}
+    About-page
+{%endblock%}
+{% block body%}
+<div class="row">
+    <div class="col-12">
+        <div class="card text-white ms-4 me-4 mb-4">
+            <div class="card-header">About Blogpage</div>
+            <div class  = "mx-auto p-2 w-75">
+                <div class="card-body">
+                    <h4 class="card-title">Background</h4>
+                    <p class="card-text">
+                        I graduated from the University of Houston with a Bachelor of Science. 
+                        My major was computer science and I also minor'd in mathematics.
+                        I specialize in statistics and data analysis using R, and Python to perform data processes to datasets.
+                        At the moment, I am currently seeking full time enployment as a web developer, software developer, python developer or analyst.
+                        <br>
+                    </p>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Working urls</h4>
+                    <p class="card-text">
+                        The working pages include: home, about, admin, register
+                        <br>
+                        Pages that need to be worked on include: Features, Account info, Library.
+                        However to get these working, the RESTful API for django framework needs to be installed and implemented to allow for access tokens.
+                        <br>
+                    </p>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Account Form</h4>
+                    <p class="card-text">
+                        So contray to all expectations but the only working feature is the addition of the account information to the SQLite DB. 
+                        This means the information that you put into the registration form IS created, but the password hashing and the authentication token for logging in are not operating.
+                        Why? Because I have not researched how to implement the RESTful api for Django.
+                        <br>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}
